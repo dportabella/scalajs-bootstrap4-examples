@@ -1,6 +1,6 @@
 enablePlugins(ScalaJSBundlerPlugin)
 
-scalaVersion := "2.12.6"
+scalaVersion := "2.12.8"
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.7"
 libraryDependencies += "com.github.karasiq" %%% "scalajs-bootstrap-v4" % "2.3.5"
 
@@ -11,3 +11,5 @@ mainClass in Compile := Some("com.karasiq.bootstrap4.test.frontend.BootstrapTest
 scalaJSUseMainModuleInitializer := true
 
 scalaJSModuleKind := ModuleKind.CommonJSModule
+version in webpack := "4.28.4"
+emitSourceMaps := false
