@@ -3,6 +3,11 @@
 Clone from https://github.com/Karasiq/scalajs-bootstrap/blob/master/build.sbt
 removing everything except for the bootstrap4 example and using sbt-scalajs-bundler.
 
+Screenshot
+
+![screenshot](docs/screenshot.png)
+
+
 
 # Run
 Run `sbt fastOptJS::webpack` and then open index.html on the web browser.
