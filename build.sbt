@@ -11,5 +11,3 @@ mainClass in Compile := Some("com.karasiq.bootstrap4.test.frontend.BootstrapTest
 scalaJSUseMainModuleInitializer := true
 
 scalaJSModuleKind := ModuleKind.CommonJSModule
-version in webpack := "4.28.4"
-emitSourceMaps := false

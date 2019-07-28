@@ -1,19 +1,11 @@
 # scalajs-bootstrap4 examples
 
 Clone from https://github.com/Karasiq/scalajs-bootstrap/blob/master/build.sbt
-removing everything except for the bootstrap4 example
-
-Trying to make it work using sbt-scalajs-bundler.
+removing everything except for the bootstrap4 example and using sbt-scalajs-bundler.
 
 
 # Run
 Run `sbt fastOptJS::webpack` and then open index.html on the web browser.
-
-The web browser console fails with:
-```
-Uncaught ReferenceError: exports is not defined
-    at scalajsenv.js:26
-```
 
 
 # Some other issues
